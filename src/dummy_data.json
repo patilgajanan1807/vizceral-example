@@ -1,0 +1,424 @@
+{
+  "renderer": "global",
+  "name": "edge",
+  "nodes": [
+    {
+      "renderer": "global",
+      "name": "INTERNET",
+      "class": "normal"
+    },
+    {
+      "renderer": "region",
+      "name": "us-east-1", 
+      "maxVolume": 50000,
+      "class": "normal",
+      "updated": 1466838546805,
+      "nodes": [
+        {
+          "name": "INTERNET",
+          "renderer": "region",
+          "class": "normal"
+        },
+        {
+          "name": "proxy-prod",
+          "renderer": "region",
+          "class": "normal"
+        },
+        {
+            "name" : "Ola"
+        },
+        {
+            "name" : "Swiggy"
+        },
+        {
+            "name" : "BigBasket"
+        },
+        {
+            "name" : "FoodPanda"
+        },
+        {
+            "name" : "NetBanking"
+        },
+        {
+            "name" : "Wallet"
+        },
+        {
+            "name" : "UPI"
+        },
+        {
+            "name" : "Card"
+        },
+        {
+            "name" : "PAYU"
+        },
+        {
+            "name" : "RazorPay"
+        },
+        {
+            "name" : "Bill Desk"
+        },
+        {
+            "name" : "HDFC"
+        },
+        {
+            "name" : "SBI"
+        },
+        {
+            "name" : "Axis"
+        },
+        {
+            "name" : "Kotak"
+        },
+        {
+            "name" : "ICICI"
+        }
+      ],
+      "connections": [
+        {
+          "source": "INTERNET",
+          "target": "Ola",
+          "metrics": {
+            "danger": 116.524,
+            "normal": 10000.000
+          }
+        },{
+            "source": "INTERNET",
+            "target": "Swiggy",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 10000.000
+            }  
+        },{
+            "source": "INTERNET",
+            "target": "FoodPanda",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 10000.000
+            }  
+        },{
+            "source": "INTERNET",
+            "target": "BigBasket",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 10000.000
+            }  
+        },{
+            "source": "BigBasket",
+            "target": "NetBanking",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "BigBasket",
+            "target": "UPI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 6000.000
+            }  
+        },{
+            "source": "BigBasket",
+            "target": "Card",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 2000.000
+            }  
+        },{
+            "source": "BigBasket",
+            "target": "Wallet",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Ola",
+            "target": "NetBanking",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Ola",
+            "target": "UPI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Ola",
+            "target": "Card",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Ola",
+            "target": "Wallet",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Swiggy",
+            "target": "NetBanking",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Swiggy",
+            "target": "UPI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Swiggy",
+            "target": "Card",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Swiggy",
+            "target": "Wallet",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "FoodPanda",
+            "target": "NetBanking",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "FoodPanda",
+            "target": "UPI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "FoodPanda",
+            "target": "Card",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "FoodPanda",
+            "target": "Wallet",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "UPI",
+            "target": "Bill Desk",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "UPI",
+            "target": "PAYU",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "UPI",
+            "target": "RazorPay",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "NetBanking",
+            "target": "Bill Desk",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "NetBanking",
+            "target": "PAYU",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "NetBanking",
+            "target": "RazorPay",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Wallet",
+            "target": "Bill Desk",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Wallet",
+            "target": "PAYU",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Wallet",
+            "target": "RazorPay",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Card",
+            "target": "Bill Desk",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Card",
+            "target": "PAYU",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Card",
+            "target": "RazorPay",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "RazorPay",
+            "target": "HDFC",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "RazorPay",
+            "target": "ICICI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "RazorPay",
+            "target": "SBI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "RazorPay",
+            "target": "Kotak",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "RazorPay",
+            "target": "Axis",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Bill Desk",
+            "target": "HDFC",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Bill Desk",
+            "target": "ICICI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Bill Desk",
+            "target": "SBI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Bill Desk",
+            "target": "Kotak",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "Bill Desk",
+            "target": "Axis",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "PAYU",
+            "target": "HDFC",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "PAYU",
+            "target": "ICICI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "PAYU",
+            "target": "SBI",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "PAYU",
+            "target": "Kotak",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        },{
+            "source": "PAYU",
+            "target": "Axis",
+            "metrics": {
+              "danger": 116.524,
+              "normal": 1000.000
+            }  
+        }
+          
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "INTERNET",
+      "target": "us-east-1",
+      "metrics": {
+        "normal": 26037.626,
+        "danger": 92.37
+      },
+      "notices": [
+      ],
+      "class": "normal"
+    }
+  ]
+}

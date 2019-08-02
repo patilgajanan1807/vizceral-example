@@ -1,0 +1,103 @@
+{
+    "renderer": "global",
+    "name": "edge",
+    "nodes": [
+      {
+        "renderer": "global",
+        "name": "INTERNET",
+        "class": "normal",
+        "displayName" : "Ola"
+      },
+      {
+        "renderer": "global",
+        "name": "UPI", 
+        "maxVolume": 50000,
+        "class": "normal",
+        "updated": 1466838546805,
+        "nodes": [
+          {
+            "name": "DummyA"
+          },
+          {
+            "name": "DummyB"
+          }
+        ]
+      },
+      {
+        "renderer": "global",
+        "name": "NetBanking", 
+        "maxVolume": 50000,
+        "class": "normal",
+        "updated": 1466838546805,
+        "nodes": [
+          {
+            "name": "DummyA"
+          },
+          {
+            "name": "DummyB"
+          }
+        ]
+      },
+      {
+        "renderer": "global",
+        "name": "Wallets", 
+        "maxVolume": 50000,
+        "class": "normal",
+        "updated": 1466838546805,
+        "nodes": [
+          {
+            "name": "DummyA"
+          },
+          {
+            "name": "DummyB"
+          }
+        ]
+      },
+      {
+        "renderer": "global",
+        "name": "Cards", 
+        "maxVolume": 50000,
+        "class": "normal",
+        "updated": 1466838546805,
+        "nodes": [
+          {
+            "name": "DummyA"
+          },
+          {
+            "name": "DummyB"
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "source": "INTERNET",
+        "target": "UPI",
+        "metrics": {
+          "normal": 30000.626,
+          "danger": 92.37
+        }
+      },{
+        "source": "INTERNET",
+        "target": "NetBanking",
+        "metrics": {
+          "normal": 5000.626,
+          "danger": 92.37
+        }
+      },{
+        "source": "INTERNET",
+        "target": "Wallets",
+        "metrics": {
+          "normal": 5000.626,
+          "danger": 92.37
+        }
+      },{
+        "source": "INTERNET",
+        "target": "Cards",
+        "metrics": {
+          "normal": 10000.626,
+          "danger": 92.37
+        }
+      }
+    ]
+  }
